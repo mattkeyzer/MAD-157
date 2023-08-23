@@ -8,17 +8,46 @@
 import SwiftUI
 
 struct ContentView: View {
-    var heading: some View{
-        VStack{
-            Text("Matt Keyzer")
-        }
-    }
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
+            
+            HStack{
+                Text("Congratulations!!!")
+                    .font(.largeTitle)
+                    .foregroundColor(Color.blue)
+                    
+            }.padding(.bottom, 3.0)
+            HStack{
+                Text("You have found Matt's Phone!!!")
+                    .font(.title3)
+            }
+            Image("IMG_8227")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .padding(/*@START_MENU_TOKEN@*/.bottom, 2.0/*@END_MENU_TOKEN@*/)
+                
+            HStack{
+                Text("Contact Matt Keyzer:")
+                    .padding(.bottom, 2.0)
+            }
+            HStack {
+                Image(systemName: "phone.arrow.up.right.fill")
+                    .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+                Text("815-245-8084")
+                    
+            }.padding(/*@START_MENU_TOKEN@*/.bottom, 1.0/*@END_MENU_TOKEN@*/)
+            HStack {
+                Image(systemName: "paperplane.fill")
+                    .imageScale(.large)
+                    .foregroundColor(.blue)
+                Text("mattk@keyzer.com")
+                    
+            }
+
+            
+            
+                
         }
         .padding()
     }
