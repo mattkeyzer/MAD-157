@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C97F1ECC2A9D196D00F0E7C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F1ECB2A9D196D00F0E7C5 /* AppDelegate.swift */; };
+		C97F1ECE2A9D196D00F0E7C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F1ECD2A9D196D00F0E7C5 /* SceneDelegate.swift */; };
+		C97F1ED02A9D196D00F0E7C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F1ECF2A9D196D00F0E7C5 /* ViewController.swift */; };
+		C97F1ED32A9D196D00F0E7C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97F1ED12A9D196D00F0E7C5 /* Main.storyboard */; };
+		C97F1ED52A9D196E00F0E7C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C97F1ED42A9D196E00F0E7C5 /* Assets.xcassets */; };
+		C97F1ED82A9D196E00F0E7C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97F1ED62A9D196E00F0E7C5 /* LaunchScreen.storyboard */; };
+		C97F1EE32A9D196E00F0E7C5 /* I_Lost_My_iPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F1EE22A9D196E00F0E7C5 /* I_Lost_My_iPhoneTests.swift */; };
+		C97F1EED2A9D196E00F0E7C5 /* I_Lost_My_iPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F1EEC2A9D196E00F0E7C5 /* I_Lost_My_iPhoneUITests.swift */; };
+		C97F1EEF2A9D196E00F0E7C5 /* I_Lost_My_iPhoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F1EEE2A9D196E00F0E7C5 /* I_Lost_My_iPhoneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C97F1EDF2A9D196E00F0E7C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97F1EC02A9D196D00F0E7C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97F1EC72A9D196D00F0E7C5;
+			remoteInfo = "I Lost My iPhone";
+		};
+		C97F1EE92A9D196E00F0E7C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97F1EC02A9D196D00F0E7C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97F1EC72A9D196D00F0E7C5;
+			remoteInfo = "I Lost My iPhone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C97F1EC82A9D196D00F0E7C5 /* I Lost My iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Lost My iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97F1ECB2A9D196D00F0E7C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C97F1ECD2A9D196D00F0E7C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C97F1ECF2A9D196D00F0E7C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C97F1ED22A9D196D00F0E7C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C97F1ED42A9D196E00F0E7C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C97F1ED72A9D196E00F0E7C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C97F1ED92A9D196E00F0E7C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97F1EDE2A9D196E00F0E7C5 /* I Lost My iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I Lost My iPhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97F1EE22A9D196E00F0E7C5 /* I_Lost_My_iPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Lost_My_iPhoneTests.swift; sourceTree = "<group>"; };
+		C97F1EE82A9D196E00F0E7C5 /* I Lost My iPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I Lost My iPhoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97F1EEC2A9D196E00F0E7C5 /* I_Lost_My_iPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Lost_My_iPhoneUITests.swift; sourceTree = "<group>"; };
+		C97F1EEE2A9D196E00F0E7C5 /* I_Lost_My_iPhoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Lost_My_iPhoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C97F1EC52A9D196D00F0E7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97F1EDB2A9D196E00F0E7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97F1EE52A9D196E00F0E7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C97F1EBF2A9D196D00F0E7C5 = {
+			isa = PBXGroup;
+			children = (
+				C97F1ECA2A9D196D00F0E7C5 /* I Lost My iPhone */,
+				C97F1EE12A9D196E00F0E7C5 /* I Lost My iPhoneTests */,
+				C97F1EEB2A9D196E00F0E7C5 /* I Lost My iPhoneUITests */,
+				C97F1EC92A9D196D00F0E7C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C97F1EC92A9D196D00F0E7C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C97F1EC82A9D196D00F0E7C5 /* I Lost My iPhone.app */,
+				C97F1EDE2A9D196E00F0E7C5 /* I Lost My iPhoneTests.xctest */,
+				C97F1EE82A9D196E00F0E7C5 /* I Lost My iPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C97F1ECA2A9D196D00F0E7C5 /* I Lost My iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				C97F1ECB2A9D196D00F0E7C5 /* AppDelegate.swift */,
+				C97F1ECD2A9D196D00F0E7C5 /* SceneDelegate.swift */,
+				C97F1ECF2A9D196D00F0E7C5 /* ViewController.swift */,
+				C97F1ED12A9D196D00F0E7C5 /* Main.storyboard */,
+				C97F1ED42A9D196E00F0E7C5 /* Assets.xcassets */,
+				C97F1ED62A9D196E00F0E7C5 /* LaunchScreen.storyboard */,
+				C97F1ED92A9D196E00F0E7C5 /* Info.plist */,
+			);
+			path = "I Lost My iPhone";
+			sourceTree = "<group>";
+		};
+		C97F1EE12A9D196E00F0E7C5 /* I Lost My iPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				C97F1EE22A9D196E00F0E7C5 /* I_Lost_My_iPhoneTests.swift */,
+			);
+			path = "I Lost My iPhoneTests";
+			sourceTree = "<group>";
+		};
+		C97F1EEB2A9D196E00F0E7C5 /* I Lost My iPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C97F1EEC2A9D196E00F0E7C5 /* I_Lost_My_iPhoneUITests.swift */,
+				C97F1EEE2A9D196E00F0E7C5 /* I_Lost_My_iPhoneUITestsLaunchTests.swift */,
+			);
+			path = "I Lost My iPhoneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C97F1EC72A9D196D00F0E7C5 /* I Lost My iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97F1EF22A9D196E00F0E7C5 /* Build configuration list for PBXNativeTarget "I Lost My iPhone" */;
+			buildPhases = (
+				C97F1EC42A9D196D00F0E7C5 /* Sources */,
+				C97F1EC52A9D196D00F0E7C5 /* Frameworks */,
+				C97F1EC62A9D196D00F0E7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I Lost My iPhone";
+			productName = "I Lost My iPhone";
+			productReference = C97F1EC82A9D196D00F0E7C5 /* I Lost My iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C97F1EDD2A9D196E00F0E7C5 /* I Lost My iPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97F1EF52A9D196E00F0E7C5 /* Build configuration list for PBXNativeTarget "I Lost My iPhoneTests" */;
+			buildPhases = (
+				C97F1EDA2A9D196E00F0E7C5 /* Sources */,
+				C97F1EDB2A9D196E00F0E7C5 /* Frameworks */,
+				C97F1EDC2A9D196E00F0E7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97F1EE02A9D196E00F0E7C5 /* PBXTargetDependency */,
+			);
+			name = "I Lost My iPhoneTests";
+			productName = "I Lost My iPhoneTests";
+			productReference = C97F1EDE2A9D196E00F0E7C5 /* I Lost My iPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C97F1EE72A9D196E00F0E7C5 /* I Lost My iPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97F1EF82A9D196E00F0E7C5 /* Build configuration list for PBXNativeTarget "I Lost My iPhoneUITests" */;
+			buildPhases = (
+				C97F1EE42A9D196E00F0E7C5 /* Sources */,
+				C97F1EE52A9D196E00F0E7C5 /* Frameworks */,
+				C97F1EE62A9D196E00F0E7C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97F1EEA2A9D196E00F0E7C5 /* PBXTargetDependency */,
+			);
+			name = "I Lost My iPhoneUITests";
+			productName = "I Lost My iPhoneUITests";
+			productReference = C97F1EE82A9D196E00F0E7C5 /* I Lost My iPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C97F1EC02A9D196D00F0E7C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C97F1EC72A9D196D00F0E7C5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C97F1EDD2A9D196E00F0E7C5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C97F1EC72A9D196D00F0E7C5;
+					};
+					C97F1EE72A9D196E00F0E7C5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C97F1EC72A9D196D00F0E7C5;
+					};
+				};
+			};
+			buildConfigurationList = C97F1EC32A9D196D00F0E7C5 /* Build configuration list for PBXProject "I Lost My iPhone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C97F1EBF2A9D196D00F0E7C5;
+			productRefGroup = C97F1EC92A9D196D00F0E7C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C97F1EC72A9D196D00F0E7C5 /* I Lost My iPhone */,
+				C97F1EDD2A9D196E00F0E7C5 /* I Lost My iPhoneTests */,
+				C97F1EE72A9D196E00F0E7C5 /* I Lost My iPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C97F1EC62A9D196D00F0E7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97F1ED82A9D196E00F0E7C5 /* LaunchScreen.storyboard in Resources */,
+				C97F1ED52A9D196E00F0E7C5 /* Assets.xcassets in Resources */,
+				C97F1ED32A9D196D00F0E7C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97F1EDC2A9D196E00F0E7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97F1EE62A9D196E00F0E7C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C97F1EC42A9D196D00F0E7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97F1ED02A9D196D00F0E7C5 /* ViewController.swift in Sources */,
+				C97F1ECC2A9D196D00F0E7C5 /* AppDelegate.swift in Sources */,
+				C97F1ECE2A9D196D00F0E7C5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97F1EDA2A9D196E00F0E7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97F1EE32A9D196E00F0E7C5 /* I_Lost_My_iPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97F1EE42A9D196E00F0E7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97F1EED2A9D196E00F0E7C5 /* I_Lost_My_iPhoneUITests.swift in Sources */,
+				C97F1EEF2A9D196E00F0E7C5 /* I_Lost_My_iPhoneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C97F1EE02A9D196E00F0E7C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C97F1EC72A9D196D00F0E7C5 /* I Lost My iPhone */;
+			targetProxy = C97F1EDF2A9D196E00F0E7C5 /* PBXContainerItemProxy */;
+		};
+		C97F1EEA2A9D196E00F0E7C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C97F1EC72A9D196D00F0E7C5 /* I Lost My iPhone */;
+			targetProxy = C97F1EE92A9D196E00F0E7C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C97F1ED12A9D196D00F0E7C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97F1ED22A9D196D00F0E7C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C97F1ED62A9D196E00F0E7C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97F1ED72A9D196E00F0E7C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C97F1EF02A9D196E00F0E7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C97F1EF12A9D196E00F0E7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C97F1EF32A9D196E00F0E7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "I Lost My iPhone/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mattkeyzer.I-Lost-My-iPhone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C97F1EF42A9D196E00F0E7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "I Lost My iPhone/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mattkeyzer.I-Lost-My-iPhone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C97F1EF62A9D196E00F0E7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mattkeyzer.I-Lost-My-iPhoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I Lost My iPhone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/I Lost My iPhone";
+			};
+			name = Debug;
+		};
+		C97F1EF72A9D196E00F0E7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mattkeyzer.I-Lost-My-iPhoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I Lost My iPhone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/I Lost My iPhone";
+			};
+			name = Release;
+		};
+		C97F1EF92A9D196E00F0E7C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mattkeyzer.I-Lost-My-iPhoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I Lost My iPhone";
+			};
+			name = Debug;
+		};
+		C97F1EFA2A9D196E00F0E7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mattkeyzer.I-Lost-My-iPhoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I Lost My iPhone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C97F1EC32A9D196D00F0E7C5 /* Build configuration list for PBXProject "I Lost My iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97F1EF02A9D196E00F0E7C5 /* Debug */,
+				C97F1EF12A9D196E00F0E7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97F1EF22A9D196E00F0E7C5 /* Build configuration list for PBXNativeTarget "I Lost My iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97F1EF32A9D196E00F0E7C5 /* Debug */,
+				C97F1EF42A9D196E00F0E7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97F1EF52A9D196E00F0E7C5 /* Build configuration list for PBXNativeTarget "I Lost My iPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97F1EF62A9D196E00F0E7C5 /* Debug */,
+				C97F1EF72A9D196E00F0E7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97F1EF82A9D196E00F0E7C5 /* Build configuration list for PBXNativeTarget "I Lost My iPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97F1EF92A9D196E00F0E7C5 /* Debug */,
+				C97F1EFA2A9D196E00F0E7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C97F1EC02A9D196D00F0E7C5 /* Project object */;
+}
