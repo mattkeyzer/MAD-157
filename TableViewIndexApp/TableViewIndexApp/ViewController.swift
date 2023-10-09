@@ -9,15 +9,16 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
-    let petArray = [["Bird", "parakeet", "parrot", "canary", "finch", "cockatiel"], ["Fish", "tropical fish", "goldfish", "sea horses", "eel"], ["Mammal", "cat", "dog", "hamster", "gerbil", "rabbit", "mouse"], ["Reptile", "turtle", "snake", "lizard"]]
-    let indexArray = ["🦅B", "🐟F", "🦬M", "🦎R"]
+    let petArray = [["Shooter", "Doom", "CS2", "Halo", "Left 4 Dead"], ["Puzzle", "BTD6", "It Takes 2", "A Short Hike", "Peggle"], ["Relaxing", "Dave The Diver", "Terraria", "Minecraft", "Mini Motorways"], ["Lego", "Batman", "Starwars", "Marvel"]]
+    
+    let indexArray = ["🔫S", "🧩P", "🌞R", "🧱L"]
     let cellID = "cellID"
     override func viewDidLoad() {
         super.viewDidLoad()
         petTable.dataSource = self
         petTable.delegate = self
-        petTable.sectionIndexColor = UIColor.white
-        petTable.sectionIndexBackgroundColor = UIColor.black
+        petTable.sectionIndexColor = UIColor.black
+        petTable.sectionIndexBackgroundColor = UIColor.white
         petTable.sectionIndexTrackingBackgroundColor = UIColor.darkGray
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -37,7 +38,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedItem = petArray[indexPath.section][indexPath.row + 1]
         let alert = UIAlertController(title: "Your Choice", message: "\(selectedItem)", preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "OK", style: .default, handler: { action -> Void in//Just dismiss the action sheet
+        let okAction = UIAlertAction(title: "OK", style: .default, handler: { action -> Void in
+        
             
         })
         alert.addAction(okAction)
